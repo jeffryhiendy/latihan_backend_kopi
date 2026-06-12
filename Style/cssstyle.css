@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+section {
+  display: flex;
+  margin: 1% auto;
+  max-width: 75%;
+  height: 10%;
+  place-content: center;
+}
+
+#Kelas{
+  padding: 10px;
+  height: 200px;
+}
+
+#pengenalan{
+  place-self: center;
+}
+
+#About{
+  padding: 10px;
+  place-self: center;
+}
+
+.cards {
+  display: flex;
+  gap: 5%;
+}
+
+#pendaftaran{
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  width: 100%;
+  height: 450px;
+}
+
+.input{
+  height: 75px;
+  gap: 1%;
+  width: 100%;
+  place-self: center;
+}
+
+select{
+  place-self: center;
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  border: gray 1px solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+form{
+  place-self: center;
+  width: 90%;
+}
+
+input {
+  place-self: center;
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  border: gray 1px solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.SubmitButton{
+  place-self: center;
+  width: 100%;
+}
+
+button{
+  place-self: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(57, 36, 16);
+  color: white;
+  border-style: none;
+  border-radius: 2px;
+}
+
+#login{
+  width: 100%;
+  margin: 50px;
+  padding: 75px;
+  place-self: center;
+  background-color: white;
+}
+
+body{
+  background-color: antiquewhite;
+}
