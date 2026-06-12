@@ -3,37 +3,48 @@ body {
 }
 
 header {
-  background-color: chocolate;
+  background-color: #4b2e1f;
   color: white;
   text-align: center;
   padding: 1%;
 }
 
 section {
-  display: flex;
-  margin: 1% auto;
-  max-width: 75%;
-  height: 10%;
-  place-content: center;
+  max-width: 900px;
+  margin: 25px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
 }
 
 #Kelas{
   padding: 10px;
   height: 200px;
-}
-
-#pengenalan{
-  place-self: center;
+  border-radius: 10px;
+  background-color: white;
 }
 
 #About{
   padding: 10px;
   place-self: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card {
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: #f8f3ef;
+  border-radius: 8px;
+  border: 1px solid #ddd;;
+  padding: 15px;
+  min-width: 250px;
 }
 
 .cards {
   display: flex;
-  gap: 5%;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 #pendaftaran{
@@ -46,39 +57,36 @@ section {
 
 .input{
   height: 75px;
-  gap: 1%;
   width: 100%;
   place-self: center;
-}
-
-select{
-  place-self: center;
-  display: block;
-  width: 100%;
-  padding: 10px 5px;
-  margin-bottom: 15px;
-  border: gray 1px solid;
-  border-radius: 2px;
-  box-sizing: border-box;
 }
 
 form{
   place-self: center;
-  width: 90%;
+  width: 100%;
 }
 
-input {
+input, select {
   place-self: center;
   display: block;
   width: 100%;
-  padding: 10px 5px;
+  padding: 10px;
+  margin-top: 8px;
   margin-bottom: 15px;
   border: gray 1px solid;
   border-radius: 2px;
   box-sizing: border-box;
 }
 
-.SubmitButton{
+#login{
+  max-width: 80%;
+  margin: 25px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#SubmitButtonLogin{
   place-self: center;
   width: 100%;
 }
@@ -88,20 +96,17 @@ button{
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
-  background-color: rgb(57, 36, 16);
+  background-color: #4b2e1f;
   color: white;
   border-style: none;
   border-radius: 2px;
 }
 
-#login{
-  width: 100%;
-  margin: 50px;
-  padding: 75px;
-  place-self: center;
-  background-color: white;
+button:hover{
+  background-color: #6b3f2a;
 }
 
 body{
-  background-color: antiquewhite;
+  background-color: #f5f0ea;
+  font-family: Arial, sans-serif;
 }
